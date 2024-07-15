@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.MainBox {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.Title {
+    font-size: 2rem;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.InputTextBox {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Heading {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.InputTxt {
+    padding: 0.8rem;
+}
+
+.BtnBox {
+    margin-top: 1.2rem;
+}
+
+.btn {
+    width: 80px;
+    height: 45px;
+    font-size: 17px;
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-bottom: 7px solid rgb(35, 207, 207);
+    box-shadow: 0px 3px 4px black;
+}
+
+.btn:hover {
+    margin: 5px;
+    border-bottom: 1px solid aqua;
+    transition: all 0.2s;
+}
+
+.result {
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    align-items: center;
+}

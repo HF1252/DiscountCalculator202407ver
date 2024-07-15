@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscountCalculator</title>
+    <link rel="stylesheet" href="./DiscountCalculator.css">
+</head>
+<body>
+    <div class="MainBox">
+        <!-- タイトル -->
+        <h2 class="Title">％割引電卓</h2>
+        
+        <!-- 金額入力 -->
+        <div class="InputTextBox">
+            <label class="Heading" for="originalPrice">価格</label>
+            <input class="InputTxt" type="text" id="originalPrice" placeholder="金額を入力してください">
+        </div>
+        
+        <!-- 割引率入力 -->
+        <div class="InputTextBox">
+            <label class="Heading" for="discount">％割引率</label>
+            <input class="InputTxt" type="text" id="discount" placeholder="割引率を入力してください">
+        </div>
+        
+        <!-- 計算ボタン -->
+        <div class="BtnBox">
+            <button class="btn" onclick="calculateDiscount()">計算実行</button>
+        </div>
+        
+        <!-- 結果出力 -->
+        <div class="result" id="result"></div>
+    </div>
+    <script src="./DiscountCalculator.js"></script>
+</body>
+</html>
